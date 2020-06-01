@@ -1,4 +1,4 @@
-# Contratações ou Aquisições realizadas para enfrentamento do coronavírus (COVID-19)Contratações ou Aquisições realizadas para enfrentamento do coronavírus (COVID-19)
+# Contratações ou Aquisições realizadas para enfrentamento do coronavírus (COVID-19)
 
 Este conjunto de dados contém a relação das contratações ou aquisições realizadas pelo Governo do Estado de Minas Gerais com fulcro na Lei Federal nº 13.979, de 06 de fevereiro de 2020 e na Lei Estadual nº 23.640, de 14 de maio de 2020 para enfrentamento da emergência de saúde pública de importância internacional decorrente do combate a pandemia da COVID-19.
 

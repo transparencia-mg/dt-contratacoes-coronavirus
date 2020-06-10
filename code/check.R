@@ -14,5 +14,9 @@ if(length(problemas_publicacao) > 0) {
 
 diff_catalogacao <- dplyr::anti_join(compras_coronavirus, controle, by = "NUMERO_PROCESSO_COMPRA")
 
-diff_catalogacao %>% 
+problemas_catalogacao <- diff_catalogacao %>% 
   dplyr::pull(NUMERO_PROCESSO_COMPRA)
+
+if(length(problemas_catalogacao) > 0) {
+  stop(glue::glue("O processo {problemas_catalogacao} não estão presentes no arquivo controle"))
+}

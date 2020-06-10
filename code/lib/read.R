@@ -2,7 +2,7 @@ read <- function(path) {
 
   infer_spec <- names(readxl::read_excel(path, n_max = 1, .name_repair = janitor::make_clean_names))
   
-  expected_cols <- c("processo_sei", "url_processo_sei", "numero_processo_formatado", "url_portal_transparencia", "data_criacao_processo", "objeto_processo", 
+  expected_cols <- c("numero_processo_formatado", "url_portal_transparencia", "data_criacao_processo", "objeto_processo", 
                      "url_documentos_processo", "codigo_orgao_entidade_pedido", 
                      "nome_orgao_entidade_pedido", 
                      "situacao_processo", "procedimento_contratacao_detalhamento_1", 
@@ -11,7 +11,7 @@ read <- function(path) {
                      "nome_orgao_entidade_contratante", "data_publicacao_contrato", 
                      "data_inicio_vigencia_contrato", "data_limite_vigencia_contrato", 
                      "data_termino_vigencia_contrato", "cnpj_cpf_fornecedor_formatado", 
-                     "nome_empresarial_nome_fornecedor", "codigo_item_material_servico_numerico", 
+                     "nome_empresarial_nome_fornecedor", "processo_sei", "url_processo_sei", "codigo_item_material_servico_numerico", 
                      "item_material_servico", "codigo_unidade_orcamentaria", 
                      "nome_unidade_orcamentaria", "descricao_linha_fornecimento", 
                      "cidade_entrega_item", "quantidade_homologada", "valor_unitario_referencia_item_processo", 
@@ -22,8 +22,6 @@ read <- function(path) {
   
   
   cols_spec <- c(
-    PROCESSO_SEI = "text",
-    URL_PROCESSO_SEI = "text",
     NUMERO_PROCESSO_COMPRA = "text",
     URL_PORTAL_TRANSPARENCIA = "text",
     DATA_CADASTRAMENTO_PROCESSO = "date",
@@ -41,8 +39,10 @@ read <- function(path) {
     INICIO_VIGENCIA = "date",
     FIM_VIGENCIA = "date",
     FIM_VIGENCIA_ATUALIZADA = "date",
-    CNPJ_CPF_CONTRATADO = "text",
+    CPF_CNPJ_CONTRATADO = "text",
     CONTRATADO = "text",
+    PROCESSO_SEI = "text",
+    URL_PROCESSO_SEI = "text",
     CODIGO_ITEM_MATERIAL_SERVICO = "numeric",
     ITEM_MATERIAL_SERVICO = "text",
     CODIGO_UNIDADE_ORCAMENTARIA = "numeric",

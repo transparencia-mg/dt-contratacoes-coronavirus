@@ -1,33 +1,33 @@
-ÔªøOrdem,Campo,Descri√ß√£o,Tipo,Conceitua√ß√£o
-1,NUMERO_PROCESSO_COMPRA,N√∫mero do Processo de Compra¬†,Texto,N√∫mero identificador do processo de compras no Portal de Compras
-2,URL_PORTAL_TRANSPARENCIA,URL Portal da Transpar√™ncia,URL,Detalhamento do processo de compras no Portal da Transpar√™ncia
-3,DATA_CADASTRAMENTO_PROCESSO,Data de Cadastramento do Processo¬†,N√∫mero,Data do cadastro do processo de compras
-4,OBJETO_PROCESSO,Objeto do Processo¬†,Texto,Descri√ß√£o dos bens e servi√ßos que est√£o sendo comprados e sua finalidade
-5,URL_DOCUMENTOS_PROCESSO,URL Documentos do Processo¬†,URL,"Rela√ß√£o dos documentos do processo de compra: Edital e suas retifica√ß√µes, relat√≥rio de detalhes de processo de compra, dados do preg√£o e outros arquivos relacionados ao processo."
-6,CODIGO_ORGAO_DEMANDANTE,C√≥digo √ìrg√£o Demandante¬†,N√∫mero,C√≥digo do √≥rg√£o ou entidade demandante
-7,ORGAO_DEMANDANTE,√ìrg√£o Demandante¬†,Texto,√ìrg√£o ou entidade que solicitou a compra de determinado material/servi√ßo. Pode coincidir ou n√£o com o √≥rg√£o que est√° executando o processo de compra.
-8,SITUACAO_PROCESSO,Situa√ß√£o do Processo¬†,Texto,"Situa√ß√£o do processo de compra (conclu√≠do suspenso, em andamento, etc..). Quanto aos processos de compra com situa√ß√£o em andamento, s√£o considerados apenas os itens j√° homologados desses processos."
-9,PROCEDIMENTO_CONTRATACAO,Procedimento de Contrata√ß√£o¬†,Texto,"Inclui as modalidades de licita√ß√£o (concorr√™ncia, tomada de pre√ßos, convite e leil√£o), preg√£o, dispensa, inexigibilidade, registro de pre√ßos, etc."
-10,NUMERO_CONTRATO,N√∫mero do Contrato¬†,N√∫mero,"N√∫mero do contrato no Sistema Integrado de Administra√ß√£o Financeira de Minas Gerais (SIAFI-MG).  Campo opcional, NA em caso de aus√™ncia de contratos por serem de entrega imediata."
-11,URL_INTEGRA_CONTRATO,URL √çntegra Contrato,URL,Link para √≠ntegra do termo do contrato celebrado e seus eventuais termos aditivos ou modificativos.
-12,CODIGO_ORGAO_CONTRATO,C√≥digo √ìrg√£o Contrato,N√∫mero,C√≥digo do √≥rg√£o ou entidade respons√°vel pelo contrato.
-13,ORGAO_CONTRATO,√ìrg√£o Contrato¬†,Texto,Nome do √≥rg√£o ou entidade respons√°vel pelo contrato
-14,DATA_PUBLICACAO,Data da Publica√ß√£o¬†,Data,"Data, no formato YYYY-MM-DD, de publica√ß√£o do Contrato no IOF"
-15,INICIO_VIGENCIA,In√≠cio da Vig√™ncia¬†,Data,"Data, no formato YYYY-MM-DD, de in√≠cio da vig√™ncia do contrato"
-16,FIM_VIGENCIA,Fim da Vig√™ncia¬†,Data,"Data, no formato YYYY-MM-DD, de fim da vig√™ncia do contrato"
-17,FIM_VIGENCIA_ATUALIZADA,Fim da Vig√™ncia Atualizada¬†,Data,"Data, no formato YYYY-MM-DD, de fim da vig√™ncia do contrato atualizada"
-18,CPF_CNPJ_CONTRATADO,CPF/CNPJ do Contratado¬†,N√∫mero,N√∫mero de identifica√ß√£o do fornecedor. Pessoa Jur√≠dica ‚Äì CNPJ. Pessoa f√≠sica CPF. Formato: (eg. xx.xxx.xxx/yyyy-zz e xxx.xxx.xxx-zz).
-19,CONTRATADO,Contratado¬†,Texto,Nome da pessoa f√≠sica ou jur√≠dica contratada para prestar um servi√ßo ou entregar bens materiais ao Estado.
-20,PROCESSO_SEI,N√∫mero do Processo SEI,Texto,N√∫mero do processo eletr√¥nico no Sistema Eletr√¥nico de Informa√ß√µes (SEI) que identifica a contrata√ß√£o
-21,URL_PROCESSO_SEI,URL √çntegra Processo SEI,URL,Link para consulta do processo eletr√¥nico no Sistema Eletr√¥nico de Informa√ß√µes (SEI)
-22,CODIGO_ITEM_MATERIAL_SERVICO,C√≥digo Item Material/Servi√ßo,N√∫mero,C√≥digo do  item de bem ou servi√ßo adquirido pelo Estado.
-23,ITEM_MATERIAL_SERVICO,Item Material/Servi√ßo,Texto,Descri√ß√£o dos itens de bens ou servi√ßos adquiridos pelo Estado.
-24,CODIGO_UNIDADE_ORCAMENTARIA,C√≥digo Unidade Or√ßament√°ria,N√∫mero,C√≥digo da unidade or√ßament√°ria vinculada ao item de pedido de compra
-25,UNIDADE_ORCAMENTARIA,Unidade Or√ßament√°ria,Texto,Nome da unidade or√ßament√°ria vinculada ao item de pedido de compra
-26,LINHA_FORNECIMENTO,Linha Fornecimento,Texto,Descri√ß√£o da linha de fornecimento vinculada ao item material/servi√ßo.
-27,CIDADE_ENTREGA,Cidade Entrega,Texto,Nome da cidade de entrega vinculada ao item de material/servi√ßo
-28,QUANTIDADE_HOMOLOGADA,Quantidade Homologada,N√∫mero,Quantidade homologada para o item de material/servi√ßo
-29,VALOR_REFERENCIA_UNITARIO,Valor Unit√°rio Refer√™ncia,N√∫mero,"Valor unit√°rio estimado de um determinado bem ou servi√ßo, obtido por meio de pesquisa de mercado ou cadastro de pre√ßos."
-30,VALOR_HOMOLOGADO_UNITARIO,Valor Unit√°rio Homologado,N√∫mero,Valor unit√°rio final licitado ou comprado
-31,VALOR_REFERENCIA,Valor de Refer√™ncia¬†,N√∫mero,"Valor estimado de um determinado bem ou servi√ßo, obtido por meio de pesquisa de mercado ou cadastro de pre√ßos."
-32,VALOR_HOMOLOGADO,Valor Homologado¬†,N√∫mero,Valor final licitado ou comprado
+Ordem;Campo;DescriÁ„o;Tipo;ConceituaÁ„o
+1;NUMERO_PROCESSO_COMPRA;N˙mero do Processo de Compra†;Texto;N˙mero identificador do processo de compras no Portal de Compras
+2;URL_PORTAL_TRANSPARENCIA;URL Portal da TransparÍncia;URL;Detalhamento do processo de compras no Portal da TransparÍncia
+3;DATA_CADASTRAMENTO_PROCESSO;Data de Cadastramento do Processo†;N˙mero;Data do cadastro do processo de compras
+4;OBJETO_PROCESSO;Objeto do Processo†;Texto;DescriÁ„o dos bens e serviÁos que est„o sendo comprados e sua finalidade
+5;URL_DOCUMENTOS_PROCESSO;URL Documentos do Processo†;URL;RelaÁ„o dos documentos do processo de compra: Edital e suas retificaÁıes, relatÛrio de detalhes de processo de compra, dados do preg„o e outros arquivos relacionados ao processo.
+6;CODIGO_ORGAO_DEMANDANTE;CÛdigo ”rg„o Demandante†;N˙mero;CÛdigo do Ûrg„o ou entidade demandante
+7;ORGAO_DEMANDANTE;”rg„o Demandante†;Texto;”rg„o ou entidade que solicitou a compra de determinado material/serviÁo. Pode coincidir ou n„o com o Ûrg„o que est· executando o processo de compra.
+8;SITUACAO_PROCESSO;SituaÁ„o do Processo†;Texto;SituaÁ„o do processo de compra (concluÌdo suspenso, em andamento, etc..). Quanto aos processos de compra com situaÁ„o em andamento, s„o considerados apenas os itens j· homologados desses processos.
+9;PROCEDIMENTO_CONTRATACAO;Procedimento de ContrataÁ„o†;Texto;Inclui as modalidades de licitaÁ„o (concorrÍncia, tomada de preÁos, convite e leil„o), preg„o, dispensa, inexigibilidade, registro de preÁos, etc.
+10;NUMERO_Contrato;N˙mero do Contrato†;N˙mero;"N˙mero do Contrato registrado no Sistema Integrado de AdministraÁ„o Financeira de Minas Gerais (SIAFI-MG).  ""NA"" em caso de ausÍncia de Contratos por serem de entrega imediata."
+11;URL_INTEGRA_Contrato;URL Õntegra Contrato;URL;Link para Ìntegra do termo do Contrato celebrado e seus eventuais termos aditivos ou modificativos.
+12;CODIGO_ORGAO_Contrato;CÛdigo ”rg„o Contrato;N˙mero;CÛdigo do Ûrg„o ou entidade que formalizou o instrumento de contrataÁ„o.
+13;ORGAO_Contrato;”rg„o Contrato†;Texto;Nome do Ûrg„o ou entidade respons·vel pelo Contrato
+14;DATA_PUBLICACAO;Data da PublicaÁ„o†;Data;Data, no formato YYYY-MM-DD, de publicaÁ„o do Contrato no IOF
+15;INICIO_VIGENCIA;InÌcio da VigÍncia†;Data;Data, no formato YYYY-MM-DD, de inÌcio da vigÍncia do Contrato
+16;FIM_VIGENCIA;Fim da VigÍncia†;Data;Data, no formato YYYY-MM-DD, de fim da vigÍncia do Contrato
+17;FIM_VIGENCIA_ATUALIZADA;Fim da VigÍncia Atualizada†;Data;Data, no formato YYYY-MM-DD, atualizada do fim da vigÍncia do Contrato
+18;CPF_CNPJ_CONTRATADO;CPF/CNPJ do Contratado†;N˙mero;N˙mero de identificaÁ„o do fornecedor. Pessoa JurÌdica ñ CNPJ. Pessoa fÌsica - CPF. Formato: (eg. xx.xxx.xxx/yyyy-zz e xxx.xxx.xxx-zz).
+19;CONTRATADO;Contratado†;Texto;Nome da pessoa fÌsica ou jurÌdica contratada para prestar um serviÁo ou entregar bens materiais ao Estado.
+20;PROCESSO_SEI;N˙mero do Processo SEI;Texto;N˙mero do processo eletrÙnico no Sistema EletrÙnico de InformaÁıes (SEI) que identifica a contrataÁ„o 
+21;URL_PROCESSO_SEI;URL Õntegra Processo SEI;URL;Link para consulta do processo eletrÙnico no Sistema EletrÙnico de InformaÁıes (SEI) 
+22;CODIGO_ITEM_MATERIAL_SERVICO;CÛdigo Item Material/ServiÁo;N˙mero;CÛdigo do item de material ou serviÁo adquirido pelo Estado.
+23;ITEM_MATERIAL_SERVICO;Item Material/ServiÁo;Texto;DescriÁ„o dos itens de materiais ou serviÁos adquiridos pelo Estado.
+24;CODIGO_UNIDADE_ORCAMENTARIA;CÛdigo Unidade OrÁament·ria;N˙mero;CÛdigo da unidade orÁament·ria vinculada ao item material/serviÁo.
+25;UNIDADE_ORCAMENTARIA;Unidade OrÁament·ria;Texto;Nome da Unidade OrÁament·ria vinculada ao item material/serviÁo.
+26;LINHA_FORNECIMENTO;Linha Fornecimento;Texto;DescriÁ„o da linha de fornecimento vinculada ao item material/serviÁo.
+27;CIDADE_ENTREGA;Cidade Entrega;Texto;Nome da cidade de entrega vinculada ao item de material/serviÁo
+28;QUANTIDADE_HOMOLOGADA;Quantidade Homologada;N˙mero;Quantidade homologada para o item de material/serviÁo
+29;VALOR_REFERENCIA_UNITARIO;Valor Unit·rio ReferÍncia;N˙mero;Valor unit·rio estimado de um determinado bem ou serviÁo, obtido por meio de pesquisa de mercado ou cadastro de preÁos.
+30;VALOR_HOMOLOGADO_UNITARIO;Valor Unit·rio Homologado;N˙mero;Valor unit·rio final licitado ou comprado
+31;VALOR_REFERENCIA;Valor de ReferÍncia†;N˙mero;Valor estimado de um determinado bem ou serviÁo, obtido por meio de pesquisa de mercado ou cadastro de preÁos.
+32;VALOR_HOMOLOGADO;Valor Homologado†;N˙mero;Valor final licitado ou comprado

@@ -1,0 +1,33 @@
+﻿Ordem,Campo,Descrição,Tipo,Conceituação
+1,NUMERO_PROCESSO_COMPRA,Número do Processo de Compra ,Texto,Número identificador do processo de compras no Portal de Compras
+2,URL_PORTAL_TRANSPARENCIA,URL Portal da Transparência,URL,Detalhamento do processo de compras no Portal da Transparência
+3,DATA_CADASTRAMENTO_PROCESSO,Data de Cadastramento do Processo ,Número,Data do cadastro do processo de compras
+4,OBJETO_PROCESSO,Objeto do Processo ,Texto,Descrição dos bens e serviços que estão sendo comprados e sua finalidade
+5,URL_DOCUMENTOS_PROCESSO,URL Documentos do Processo ,URL,"Relação dos documentos do processo de compra: Edital e suas retificações, relatório de detalhes de processo de compra, dados do pregão e outros arquivos relacionados ao processo."
+6,CODIGO_ORGAO_DEMANDANTE,Código Órgão Demandante ,Número,Código do órgão ou entidade demandante
+7,ORGAO_DEMANDANTE,Órgão Demandante ,Texto,Órgão ou entidade que solicitou a compra de determinado material/serviço. Pode coincidir ou não com o órgão que está executando o processo de compra.
+8,SITUACAO_PROCESSO,Situação do Processo ,Texto,"Situação do processo de compra (concluído suspenso, em andamento, etc..). Quanto aos processos de compra com situação em andamento, são considerados apenas os itens já homologados desses processos."
+9,PROCEDIMENTO_CONTRATACAO,Procedimento de Contratação ,Texto,"Inclui as modalidades de licitação (concorrência, tomada de preços, convite e leilão), pregão, dispensa, inexigibilidade, registro de preços, etc."
+10,NUMERO_CONTRATO,Número do Contrato ,Número,"Número do contrato no Sistema Integrado de Administração Financeira de Minas Gerais (SIAFI-MG).  Campo opcional, NA em caso de ausência de contratos por serem de entrega imediata."
+11,URL_INTEGRA_CONTRATO,URL Íntegra Contrato,URL,Link para íntegra do termo do contrato celebrado e seus eventuais termos aditivos ou modificativos.
+12,CODIGO_ORGAO_CONTRATO,Código Órgão Contrato,Número,Código do órgão ou entidade responsável pelo contrato.
+13,ORGAO_CONTRATO,Órgão Contrato ,Texto,Nome do órgão ou entidade responsável pelo contrato
+14,DATA_PUBLICACAO,Data da Publicação ,Data,"Data, no formato YYYY-MM-DD, de publicação do Contrato no IOF"
+15,INICIO_VIGENCIA,Início da Vigência ,Data,"Data, no formato YYYY-MM-DD, de início da vigência do contrato"
+16,FIM_VIGENCIA,Fim da Vigência ,Data,"Data, no formato YYYY-MM-DD, de fim da vigência do contrato"
+17,FIM_VIGENCIA_ATUALIZADA,Fim da Vigência Atualizada ,Data,"Data, no formato YYYY-MM-DD, de fim da vigência do contrato atualizada"
+18,CPF_CNPJ_CONTRATADO,CPF/CNPJ do Contratado ,Número,Número de identificação do fornecedor. Pessoa Jurídica – CNPJ. Pessoa física CPF. Formato: (eg. xx.xxx.xxx/yyyy-zz e xxx.xxx.xxx-zz).
+19,CONTRATADO,Contratado ,Texto,Nome da pessoa física ou jurídica contratada para prestar um serviço ou entregar bens materiais ao Estado.
+20,PROCESSO_SEI,Número do Processo SEI,Texto,Número do processo eletrônico no Sistema Eletrônico de Informações (SEI) que identifica a contratação
+21,URL_PROCESSO_SEI,URL Íntegra Processo SEI,URL,Link para consulta do processo eletrônico no Sistema Eletrônico de Informações (SEI)
+22,CODIGO_ITEM_MATERIAL_SERVICO,Código Item Material/Serviço,Número,Código do  item de bem ou serviço adquirido pelo Estado.
+23,ITEM_MATERIAL_SERVICO,Item Material/Serviço,Texto,Descrição dos itens de bens ou serviços adquiridos pelo Estado.
+24,CODIGO_UNIDADE_ORCAMENTARIA,Código Unidade Orçamentária,Número,Código da unidade orçamentária vinculada ao item de pedido de compra
+25,UNIDADE_ORCAMENTARIA,Unidade Orçamentária,Texto,Nome da unidade orçamentária vinculada ao item de pedido de compra
+26,LINHA_FORNECIMENTO,Linha Fornecimento,Texto,Descrição da linha de fornecimento vinculada ao item material/serviço.
+27,CIDADE_ENTREGA,Cidade Entrega,Texto,Nome da cidade de entrega vinculada ao item de material/serviço
+28,QUANTIDADE_HOMOLOGADA,Quantidade Homologada,Número,Quantidade homologada para o item de material/serviço
+29,VALOR_REFERENCIA_UNITARIO,Valor Unitário Referência,Número,"Valor unitário estimado de um determinado bem ou serviço, obtido por meio de pesquisa de mercado ou cadastro de preços."
+30,VALOR_HOMOLOGADO_UNITARIO,Valor Unitário Homologado,Número,Valor unitário final licitado ou comprado
+31,VALOR_REFERENCIA,Valor de Referência ,Número,"Valor estimado de um determinado bem ou serviço, obtido por meio de pesquisa de mercado ou cadastro de preços."
+32,VALOR_HOMOLOGADO,Valor Homologado ,Número,Valor final licitado ou comprado

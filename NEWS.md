@@ -1,5 +1,10 @@
 ## Atualizações relevantes
 
+### 11/05/2021
+* Inserção de variáveis adicionais relativas ao processo de compra para atender ao disposto no inc. VIII, art. 10 da MP1.047/2021
+    * `REGISTRO_PRECO`
+    * `URL_REGISTRO_PRECO`
+
 ### 10/06/2020
 
 * Inserção de variáveis adicionais relativas ao processo de compra
